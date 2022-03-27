@@ -1,0 +1,1071 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:200,300");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --black: 
+  rgba(0, 0, 0, 1);
+    --congress-blue: 
+  rgba(0, 78, 146, 1);
+    --eerie-black: 
+  rgba(26, 26, 26, 1);
+    --cloud: 
+  rgba(197, 197, 197, 1);
+  
+    --font-size-s: 14px;
+    --font-size-m: 16px;
+    --font-size-l: 18px;
+    --font-size-xl: 24px;
+  
+    --font-family-inter: "Inter";
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  
+  
+  .inter-light-congress-blue-14px {
+    color: var(--congress-blue);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s);
+    font-weight: 300;
+    font-style: normal;
+  }
+  .inter-light-eerie-black-24px {
+    color: var(--eerie-black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xl);
+    font-weight: 300;
+    font-style: normal;
+  }
+  .border-1px-cloud {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--cloud);
+  }
+  .inter-light-eerie-black-16px {
+    color: var(--eerie-black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 300;
+    font-style: normal;
+  }
+  .inter-light-eerie-black-18px {
+    color: var(--eerie-black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-l);
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .portoflio-lightscreen {
+    padding-left: 50px;
+  }
+
+
+  .portoflio-light {
+    align-items: center;
+    background-color: 
+  #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 4787px;
+    width: 1440px;
+  }
+  
+  .hidden,
+  .hidden * {
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .container {
+    margin: 0 130px;
+  }
+  
+  .contact {
+    align-items: flex-start;
+    display: flex;
+    /* margin-bottom: 102px; */
+    padding: 102px 0;
+    min-width: 1080px;
+    z-index: 6;
+    border-top: 1px solid #1A1A1A;
+}
+  
+  
+  .place {
+    letter-spacing: 0;
+    min-height: 22px;
+    min-width: 86px;
+  }
+  
+  .btn {
+    align-items: flex-start;
+    display: flex;
+    margin-left: 117px;
+    min-width: 877px;
+  }
+  
+  .overlap-group3 {
+    border-radius: 4px;
+    height: 49px;
+    position: relative;
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  
+  .send-an-email {
+    left: 68px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 13px;
+    white-space: nowrap;
+  }
+  
+  .rectangle-5 {
+    border-radius: 4px;
+    height: 49px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 210px;
+  }
+  
+  .mail-fill-1 {
+    height: 24px;
+    left: 35px;
+    position: absolute;
+    top: 13px;
+    width: 24px;
+  }
+  
+  .overlap-group {
+    border-radius: 4px;
+    height: 49px;
+    margin-left: 12px;
+    position: relative;
+    width: 210px;
+  }
+  
+  .github-fill-2 {
+    height: 24px;
+    left: 63px;
+    position: absolute;
+    top: 13px;
+    width: 24px;
+  }
+  
+  .rectangle-8 {
+    border-radius: 4px;
+    height: 49px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 210px;
+  }
+  
+  .github {
+    left: 95px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 13px;
+    white-space: nowrap;
+  }
+  
+  .rectangle-6 {
+    border-radius: 4px;
+    height: 49px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 210px;
+  }
+  
+  .linked-in {
+    left: 90px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 14px;
+    white-space: nowrap;
+  }
+  
+  .linkedin-fill-1 {
+    height: 24px;
+    left: 58px;
+    position: absolute;
+    top: 12px;
+    width: 24px;
+  }
+  
+  .ant-designbehance-outlined {
+    height: 26px;
+    left: 58px;
+    position: absolute;
+    top: 12px;
+    width: 26px;
+  }
+  
+  .overlap-group1 {
+    border-radius: 4px;
+    height: 49px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 210px;
+  }
+  
+  .rectangle-7 {
+    border-radius: 4px;
+    height: 49px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 210px;
+  }
+  
+  .behance {
+    left: 92px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 13px;
+    white-space: nowrap;
+  }
+  
+  .navbar {
+    align-items: flex-start;
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62342fe…/releases/62342ff…/img/rectangle-9@1x.svg);
+    background-size: 100% 100%;
+    background-color: white;
+    display: flex;
+    height: 123px;
+    left: 0;
+    /* background-color: red; */
+    min-width: 1440px;
+    padding: 0 181px;
+    /* padding-top: 0; */
+    position: fixed;
+    top: 0;
+    z-index: 9;
+  }
+  
+  .sn {
+    align-items: center;
+    align-self: center;
+    color: var(--eerie-black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xl);
+    font-weight: 200;
+    letter-spacing: 0;
+    min-height: 29px;
+    min-width: 34px;
+  }
+  
+  .frame-28 {
+    align-items: center;
+    align-self: center;
+    display: flex;
+    height: 24px;
+    justify-content: flex-end;
+    margin-bottom: 1px;
+    margin-left: 713px;
+    min-width: 319px;
+  }
+  
+  .frame-28-item {
+    letter-spacing: 0;
+    margin-left: 30px;
+    min-height: 22px;
+    min-width: 68px;
+  }
+  
+  .projects {
+    letter-spacing: 0;
+    min-height: 22px;
+    min-width: 69px;
+  }
+  
+  .hey-im {
+    align-self: flex-start;
+    letter-spacing: 0;
+    margin-top: 240px;
+    min-height: 19px;
+    z-index: 2;
+  }
+  
+  .group-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    min-height: 1100px;
+    width: 1080px;
+    z-index: 7;
+  }
+  
+  .line-3 {
+    height: 1px;
+    margin-top: 174px;
+    width: 1080px;
+  }
+  
+  .experience {
+    align-items: flex-start;
+    display: flex;
+    height: 1128px;
+    min-width: 1055px;
+  }
+  
+  .frame-23 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 95px;
+    min-height: 1128px;
+    width: 852px;
+  }
+  
+  .frame-1 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 54px;
+    min-height: 101px;
+    width: 852px;
+  }
+  
+  .intern-as-infrastr {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .pt-hutchison-3-indonesia {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .frame-4 {
+    align-items: center;
+    display: flex;
+    height: 29px;
+    min-width: 852px;
+  }
+  
+  .network-engineer {
+    letter-spacing: 0;
+    min-height: 29px;
+    min-width: 201px;
+  }
+  
+  .jun-2019-aug-2019 {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-left: 496px;
+    min-height: 24px;
+    min-width: 155px;
+    white-space: nowrap;
+  }
+  
+  .intern-as-web-deve {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .pt-telekomunikasi-seluler-telkomsel {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .web-developer {
+    letter-spacing: 0;
+    min-height: 29px;
+    min-width: 171px;
+  }
+  
+  .name-1 {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-left: 529px;
+    min-height: 24px;
+    min-width: 152px;
+    white-space: nowrap;
+  }
+  
+  .frame-14 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 54px;
+    min-height: 137px;
+    width: 852px;
+  }
+  
+  .idemia-labs-indonesia {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .revamp-4-product-internal-idemia {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .oct-2020-dec-2020 {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-left: 520px;
+    min-height: 24px;
+    min-width: 160px;
+    white-space: nowrap;
+  }
+  
+  .uiux-desinger {
+    letter-spacing: 0;
+    min-height: 29px;
+    min-width: 172px;
+  }
+  
+  .revamp-web-e-gov {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .frame-13 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 54px;
+    min-height: 209px;
+    width: 852px;
+  }
+  
+  .kai-project-kai-pay-point {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .name {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-left: 469px;
+    min-height: 24px;
+    min-width: 148px;
+    white-space: nowrap;
+  }
+  
+  .lead-uiux-designer {
+    letter-spacing: 0;
+    min-height: 29px;
+    min-width: 235px;
+  }
+  
+  .manage-all-project-in-company {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .manage-design-syst {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .revamp-linistoreid-already-launch {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .macro-ad {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .frame-5-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 137px;
+    width: 852px;
+  }
+  
+  .facilitator-uiux-designer {
+    letter-spacing: 0;
+    min-height: 29px;
+    min-width: 290px;
+  }
+  
+  .feb-2022-present {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-left: 417px;
+    min-height: 24px;
+    min-width: 145px;
+    white-space: nowrap;
+  }
+  
+  .teaching-about-ui {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .review-the-silabus {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .binar-academy {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .frame-15 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 54px;
+    min-height: 173px;
+    width: 852px;
+  }
+  
+  .teaching-to-public {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .multimedia-lab-telkom-university {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .project-voice-recognition {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .oct-2018-jan-2020 {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-left: 525px;
+    min-height: 24px;
+    min-width: 155px;
+    white-space: nowrap;
+  }
+  
+  .motion-graphic {
+    letter-spacing: 0;
+    min-height: 29px;
+    min-width: 172px;
+  }
+  
+  .teaching-student-a {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .experience-1 {
+    letter-spacing: 0;
+    min-height: 22px;
+    min-width: 108px;
+  }
+  
+  .frame-1-1 {
+    align-items: center;
+    align-self: flex-start;
+    display: flex;
+    height: 24px;
+    /*margin-left: 180px;*/
+    margin-top: 40px;
+    min-width: 113px;
+    z-index: 4;
+  }
+  
+  .title {
+    letter-spacing: 0;
+    line-height: 24px;
+    min-height: 24px;
+    min-width: 68px;
+    white-space: nowrap;
+  }
+  
+  .line-1 {
+    height: 7px;
+    margin-bottom: 0.64px;
+    margin-left: 12px;
+    width: 34px;
+  }
+  
+  .im-a-uiux-designer {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 34px;
+    min-height: 96px;
+    text-align: justify;
+    width: 1080px;
+    z-index: 3;
+  }
+  
+  .featured-projects {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1px;
+    margin-top: 103px;
+    min-height: 2301px;
+    width: 1079px;
+    z-index: 5;
+  }
+  
+  .projects-cards {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 51px;
+    min-height: 2228px;
+    width: 1079px;
+  }
+  
+  .frame-2 {
+    align-items: flex-start;
+    display: flex;
+    height: 518px;
+    margin-top: 60px;
+    min-width: 1079px;
+  }
+  
+  .frame {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 494px;
+    width: 511px;
+  }
+  
+  .frame-5 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 31px;
+    min-height: 125px;
+    width: 511px;
+  }
+  
+  .react-tailwind-css-context-api {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .frame-4-2 {
+    align-items: flex-start;
+    display: flex;
+    height: 29px;
+    min-width: 511px;
+  }
+  
+  .name-2 {
+    letter-spacing: 0;
+    min-height: 29px;
+    width: 400px;
+  }
+  
+  .frame-3-3 {
+    height: 24px;
+    margin-left: 65px;
+    width: 67px;
+  }
+  
+  .sidechain-explorer-o {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    width: 453px;
+  }
+  
+  .gradients-earth {
+    background-image: url('./KAI.png');
+    background-size: 100% 100%;
+    border-radius: 4px;
+    height: 338px;
+    width: 511px;
+  }
+  
+  .frame-3 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 57px;
+    min-height: 518px;
+    width: 511px;
+  }
+  
+  .gradients-sweet-rain {
+    background-image: url('./Icarus.png');
+    background-size: 100% 100%;
+    border-radius: 4px;
+    height: 338px;
+    width: 511px;
+  }
+  
+  .frame-5-1 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 31px;
+    min-height: 149px;
+    width: 511px;
+  }
+  
+  .frame-4-1 {
+    align-items: center;
+    display: flex;
+    height: 29px;
+    min-width: 511px;
+  }
+  
+  .frame-3-4 {
+    height: 24px;
+    margin-bottom: 1px;
+    margin-left: 400px;
+    width: 67px;
+  }
+  
+  .icarus {
+    letter-spacing: 0;
+    min-height: 29px;
+    min-width: 68px;
+  }
+  
+  .react-redux-firebase-git-hub-api {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .a-nicer-look-to-gith {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    width: 453px;
+  }
+  
+  .frame-24 {
+    align-items: flex-start;
+    display: flex;
+    height: 494px;
+    min-width: 1079px;
+  }
+  
+  .frame-6 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 57px;
+    min-height: 470px;
+    width: 511px;
+  }
+  
+  .frame-5-3 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 31px;
+    min-height: 101px;
+    width: 511px;
+  }
+  
+  .vue-nuxt-netlify {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .frame-3-2 {
+    height: 24px;
+    margin-bottom: 1px;
+    margin-left: 370px;
+    width: 67px;
+  }
+
+  
+  .linistore {
+    letter-spacing: 0;
+    min-height: 29px;
+    min-width: 96px;
+  }
+  
+  .site-for-a-bsc-based-coin-called-aape {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .gradients-cold-breeze {
+    background-image: url('./Linistore.png');
+    background-size: 100% 100%;
+    border-radius: 4px;
+    height: 338px;
+    width: 511px;
+  }
+  
+  .ada-kita {
+    letter-spacing: 0;
+    min-height: 29px;
+    min-width: 88px;
+  }
+  
+  .frame-3-1 {
+    height: 24px;
+    margin-bottom: 1px;
+    margin-left: 377px;
+    width: 67px;
+  }
+  
+  .proxy-provider-websi {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    width: 453px;
+  }
+  
+  .react-bootstrap-styled-components {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .gradients-sugar-cream {
+    background-image: url('./AdaKita.png');
+    background-size: 100% 100%;
+    border-radius: 4px;
+    height: 338px;
+    width: 511px;
+  }
+  
+  .frame-12 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    min-height: 518px;
+    width: 511px;
+  }
+  
+  .discord-music-bot-us {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    width: 453px;
+  }
+  
+  .frame-3-7 {
+    height: 24px;
+    margin-bottom: 1px;
+    margin-left: 122px;
+    width: 67px;
+  }
+  
+  .cool-giraffe-concert-club-nft {
+    letter-spacing: 0;
+    min-height: 29px;
+    min-width: 345px;
+  }
+  
+  .discord-library-no {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .gradients-red-sun {
+    background-image: url('./CGCC.png');
+    background-size: 100% 100%;
+    border-radius: 4px;
+    height: 338px;
+    width: 511px;
+  }
+  
+  .vuejs-vuex-the-audio-db-api {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .music-search-applica {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 22px;
+    width: 453px;
+  }
+  
+  .frame-3-6 {
+    height: 24px;
+    margin-bottom: 1px;
+    margin-left: 189px;
+    width: 67px;
+  }
+  
+  .si-cepat-video-animation {
+    letter-spacing: 0;
+    min-height: 29px;
+    min-width: 278px;
+  }
+  
+  .gradients-ice-cream {
+    background-image: url('./Sisurat2.png');
+    background-size: 100% 100%;
+    border-radius: 4px;
+    height: 338px;
+    width: 511px;
+  }
+  
+  .frame-11 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 518px;
+    width: 511px;
+  }
+  
+  .gradients-cold-breeze-1 {
+    background-image: url('./Vostra.png');
+    background-size: 100% 100%;
+    border-radius: 4px;
+    height: 338px;
+    width: 511px;
+  }
+  
+  .vostra-video-animation {
+    letter-spacing: 0;
+    min-height: 29px;
+    min-width: 261px;
+  }
+  
+  .frame-3-5 {
+    height: 24px;
+    margin-bottom: 1px;
+    margin-left: 205px;
+    width: 67px;
+  }
+  
+  .tv-application-disp {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    width: 453px;
+  }
+  
+  .reactjs-redux-the-movie-db-api {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 12px;
+    min-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .featured-projects-1 {
+    letter-spacing: 0;
+    min-height: 22px;
+  }
+  
+  .muhammad-reza-syarief {
+    height: 84px;
+    margin-right: 20.28px;
+    margin-top: 34px;
+    width: 1059px;
+    z-index: 1;
+  }
+  
+  .line-2 {
+    height: 1px;
+    margin-top: 108px;
+    width: 1080px;
+    z-index: 8;
+  }
