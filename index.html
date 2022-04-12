@@ -12,9 +12,9 @@
       <div class="navbar">
         <div class="sn" onclick="scrollToTop()" style="cursor: pointer;">SN</div>
         <div class="frame-28">
-          <div class="projects inter-light-eerie-black-18px"><a href="#projects" style="color: black; text-decoration: none">Projects</a></div>
+          <div class="projects inter-light-eerie-black-18px" onclick="scrollToProject()"><a style="color: black; text-decoration: none; cursor: pointer;">Projects</a></div>
           <div class="frame-28-item">
-            <a href="#contact" class="inter-light-eerie-black-18px" style="color: black; text-decoration: none">Contact</a>
+            <a class="inter-light-eerie-black-18px" onclick="scrollToContact()" style="color: black; text-decoration: none; cursor: pointer;">Contact</a>
           </div>
         </div>
       </div>
@@ -287,6 +287,12 @@
   <script>
     function scrollToTop() {
       window.scrollTo({ top: -10, behavior: 'smooth' });
+        }
+        function scrollToProject() {
+      document.getElementById("projects").scrollIntoView({behavior: "smooth"});
+        }
+        function scrollToContact() {
+      document.getElementById("contact").scrollIntoView({behavior: "smooth"});
         }
     </script>
   </html>
